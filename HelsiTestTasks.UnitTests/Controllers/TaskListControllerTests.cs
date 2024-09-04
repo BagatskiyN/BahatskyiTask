@@ -1,5 +1,4 @@
 ﻿using HelsiTestTask.BL.Interfaces;
-using HelsiTestTask.Domain.Entities;
 using HelsiTestTask.Domain.Models;
 using HelsiTestTask.Domain.Requests;
 using HelsiTestTask.Domain.Responses;

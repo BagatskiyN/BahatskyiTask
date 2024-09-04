@@ -1,6 +1,4 @@
-﻿using HelsiTestTask.Domain.Entities;
-
-namespace HelsiTestTask.Domain.Responses
+﻿namespace HelsiTestTask.Domain.Responses
 {
     public class GetPagedTaskListsResponse
     {

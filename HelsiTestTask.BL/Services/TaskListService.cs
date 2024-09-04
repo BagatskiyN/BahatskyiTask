@@ -105,5 +105,4 @@ namespace HelsiTestTask.BL.Services
             };
         }
     }
-
 }

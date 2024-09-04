@@ -2,7 +2,6 @@
 using HelsiTestTask.Domain.Responses;
 using Newtonsoft.Json;
 using System.Net;
-using System.Net.Mime;
 
 namespace HelsiTestTask.WebApi.Infrastructure
 {

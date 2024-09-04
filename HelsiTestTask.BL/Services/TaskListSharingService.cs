@@ -1,6 +1,5 @@
 ﻿using HelsiTestTask.BL.Interfaces;
 using HelsiTestTask.DAL.Interfaces;
-using HelsiTestTask.DAL.Repositories;
 
 namespace HelsiTestTask.BL.Services
 {

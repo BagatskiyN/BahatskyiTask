@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace HelsiTestTask.Domain.Models
+﻿namespace HelsiTestTask.Domain.Models
 {
     public class TaskList
     {

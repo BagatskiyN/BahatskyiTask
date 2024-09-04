@@ -3,7 +3,6 @@ using HelsiTestTask.Domain.Constants;
 using HelsiTestTask.Domain.Entities;
 using MongoDB.Driver;
 
-
 namespace HelsiTestTask.DAL.Repositories
 {
     public class TaskListRepository : ITaskListRepository

@@ -1,5 +1,4 @@
 ﻿using HelsiTestTask.Domain.Entities;
-using HelsiTestTask.Domain.Models;
 using MongoDB.Driver;
 
 namespace HelsiTestTask.DAL.Interfaces
