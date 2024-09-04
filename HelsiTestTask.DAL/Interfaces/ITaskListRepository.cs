@@ -15,6 +15,6 @@ namespace HelsiTestTask.DAL.Interfaces
 
         Task DeleteAsync(string id);
 
-        Task<int> GetCountAsync(string userId);
+        Task<int> GetCountByUserAsync(string userId);
     }
 }

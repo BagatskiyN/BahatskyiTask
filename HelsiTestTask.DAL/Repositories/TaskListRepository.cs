@@ -18,7 +18,7 @@ namespace HelsiTestTask.DAL.Repositories
         {
             await _taskLists.InsertOneAsync(taskList);
         }
-        public async Task<int> GetCountAsync(string userId)
+        public async Task<int> GetCountByUserAsync(string userId)
         {
             var filter = Builders<TaskListEntity>.Filter.Or(
                 Builders<TaskListEntity>.Filter.Eq(t => t.OwnerId, userId),
