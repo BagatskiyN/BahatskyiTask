@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.28.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.28.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelsiTestTask.BL\HelsiTestTask.BL.csproj" />
+    <ProjectReference Include="..\HelsiTestTask.DAL\HelsiTestTask.DAL.csproj" />
+    <ProjectReference Include="..\HelsiTestTask.Domain\HelsiTestTask.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
