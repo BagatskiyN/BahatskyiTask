@@ -89,12 +89,7 @@ namespace HelsiTestTask.BL.Services
 
             if (string.IsNullOrEmpty(userId)) throw new ArgumentException("UserId cannot be null or empty.", nameof(userId));
 
-            var filter = Builders<TaskListEntity>.Filter.Or(
-                Builders<TaskListEntity>.Filter.Eq(t => t.OwnerId, userId),
-                Builders<TaskListEntity>.Filter.AnyEq(t => t.SharedWith, userId)
-            );
-
-            var totalCount = await _repository.GetCountAsync(filter);
+            var totalCount = await _repository.GetCountAsync(userId);
 
             var taskLists = await _repository.GetPagedAsync(userId, request.Page, request.PageSize);
 

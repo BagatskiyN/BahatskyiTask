@@ -118,7 +118,7 @@ namespace HelsiTestTasks.UnitTests.Services
             _repository.GetPagedAsync(userId, request.Page, request.PageSize)
                 .Returns(Task.FromResult((IEnumerable<TaskListEntity>)taskLists));
 
-            _repository.GetCountAsync(Arg.Any<FilterDefinition<TaskListEntity>>())
+            _repository.GetCountAsync(Arg.Any<string>())
                 .Returns(Task.FromResult(taskLists.Count));
 
             // Act
